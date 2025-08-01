@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Avenir-Medium";
+  src: local("Avenir Medium"), local("Avenir-Medium");
+}
+
+@font-face {
+  font-family: "Avenir-Book";
+  src: local("Avenir Book"), local("Avenir-Book");
+}
+
+body {
+  font-family: "Avenir-Book", sans-serif;
+  background-color: #ffffff;
+}
+
+h2,
+h2 a,
+h2 a:hover {
+  color: #000045;
+}
